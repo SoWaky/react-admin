@@ -32,12 +32,6 @@ const TopBar = () => {
                         borderRadius: '3px',
                     }}
                 >
-                    <IconButton sx={{ mr: 1 }}>
-                        <LightModeOutlinedIcon />
-                    </IconButton>
-                    <IconButton sx={{ mr: 1 }}>
-                        <DarkModeOutlinedIcon />
-                    </IconButton>
                     <InputBase
                         placeholder="Search…"
                         inputProps={{ 'aria-label': 'search' }}
